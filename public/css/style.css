@@ -1,0 +1,33 @@
+#login{
+    display:flex;
+    height:630px;
+    align-items:center;
+}
+
+/*------------------------------header section css---------------------------*/
+#header{
+    background: linear-gradient(to right,rgb(22, 231, 54 ),rgb(13, 174, 38 ));
+    padding:15px 0px;
+}
+#header ul{
+    float:right;
+
+}
+#header ul li{
+    display:inline-block;
+
+}
+#header ul li a{
+    text-decoration:none;
+    color:whitesmoke;
+    margin-right:20px;
+}
+#login #pass-box{
+    position: relative;
+}
+#login #eye{
+    position:absolute;
+    right:20px;
+    margin-top: -29px;
+    cursor: pointer;
+}
